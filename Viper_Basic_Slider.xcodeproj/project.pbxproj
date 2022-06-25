@@ -38,6 +38,7 @@
 		D5607AD328672F98000A444A /* HomeViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewPresenter.swift; sourceTree = "<group>"; };
 		D5607AD528672FC7000A444A /* HomeViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRouter.swift; sourceTree = "<group>"; };
 		D5607AD728672FD6000A444A /* HomeViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewProtocols.swift; sourceTree = "<group>"; };
+		D5607AD92867345D000A444A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				D50DD1BB286336A6004B06A6 /* .gitignore */,
+				D5607AD92867345D000A444A /* README.md */,
 				D50DD1A628633677004B06A6 /* Viper_Basic_Slider */,
 				D50DD1A528633677004B06A6 /* Products */,
 			);
