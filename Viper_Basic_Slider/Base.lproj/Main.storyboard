@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -11,7 +11,7 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="Viper_Basic_Slider" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="homeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="Viper_Basic_Slider" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,21 +21,30 @@
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="PPM-5x-PuB">
                                         <rect key="frame" x="-2" y="0.0" width="378" height="31"/>
+                                        <connections>
+                                            <action selector="onRedValueChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="b3s-gt-TFf"/>
+                                        </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="yjU-Yv-SZs">
                                         <rect key="frame" x="-2" y="90" width="378" height="31"/>
+                                        <connections>
+                                            <action selector="onGreenValueChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="7Ha-1y-FRF"/>
+                                        </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="vSe-Dk-yi3">
                                         <rect key="frame" x="-2" y="180" width="378" height="31"/>
+                                        <connections>
+                                            <action selector="onBlueValueChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="2Rr-Dj-dLg"/>
+                                        </connections>
                                     </slider>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9kQ-1h-dKA">
-                                <rect key="frame" x="50" y="610" width="314" height="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RGB(0.0, 0.0, 0.0)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9kQ-1h-dKA">
+                                <rect key="frame" x="108" y="610" width="198.5" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Nxq-bc-myB"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -43,8 +52,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="9kQ-1h-dKA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="P1o-EM-taC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9kQ-1h-dKA" secondAttribute="trailing" constant="50" id="T9I-MG-2uw"/>
+                            <constraint firstItem="9kQ-1h-dKA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pgv-w3-N7p"/>
                             <constraint firstItem="aSh-Oi-i5d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Xad-P9-AzH"/>
                             <constraint firstItem="aSh-Oi-i5d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hJB-C5-Qzh"/>
                             <constraint firstItem="aSh-Oi-i5d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="176" id="k8T-yl-8M7"/>
@@ -52,6 +60,12 @@
                             <constraint firstItem="9kQ-1h-dKA" firstAttribute="top" secondItem="aSh-Oi-i5d" secondAttribute="bottom" constant="180" id="wGY-do-rJh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lblRgbValue" destination="9kQ-1h-dKA" id="xjj-AK-Wvt"/>
+                        <outlet property="sliderBlue" destination="vSe-Dk-yi3" id="Ma2-Wy-QA9"/>
+                        <outlet property="sliderGreen" destination="yjU-Yv-SZs" id="qAb-JW-D5q"/>
+                        <outlet property="sliderRed" destination="PPM-5x-PuB" id="TeV-Ca-Z6e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

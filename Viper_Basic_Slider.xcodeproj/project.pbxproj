@@ -14,6 +14,7 @@
 		D50DD1B128633679004B06A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50DD1B028633679004B06A6 /* Assets.xcassets */; };
 		D50DD1B428633679004B06A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50DD1B228633679004B06A6 /* LaunchScreen.storyboard */; };
 		D50DD1BC286336A6004B06A6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D50DD1BB286336A6004B06A6 /* .gitignore */; };
+		D5607ACE28671B3B000A444A /* HomeViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5607ACD28671B3B000A444A /* HomeViewBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D50DD1B328633679004B06A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D50DD1B528633679004B06A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D50DD1BB286336A6004B06A6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		D5607ACD28671B3B000A444A /* HomeViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				D50DD1A728633677004B06A6 /* AppDelegate.swift */,
 				D50DD1A928633677004B06A6 /* SceneDelegate.swift */,
 				D50DD1AB28633677004B06A6 /* HomeViewController.swift */,
+				D5607ACD28671B3B000A444A /* HomeViewBuilder.swift */,
 				D50DD1AD28633677004B06A6 /* Main.storyboard */,
 				D50DD1B028633679004B06A6 /* Assets.xcassets */,
 				D50DD1B228633679004B06A6 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			files = (
 				D50DD1AC28633677004B06A6 /* HomeViewController.swift in Sources */,
 				D50DD1A828633677004B06A6 /* AppDelegate.swift in Sources */,
+				D5607ACE28671B3B000A444A /* HomeViewBuilder.swift in Sources */,
 				D50DD1AA28633677004B06A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +301,6 @@
 				INFOPLIST_FILE = Viper_Basic_Slider/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +327,6 @@
 				INFOPLIST_FILE = Viper_Basic_Slider/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
