@@ -5,6 +5,9 @@
 //  Created by Kamal Sharma R on 25/06/22.
 //
 // App Color Data Acces Object
+
+// This is the Entity in the HomeView Viper structure
+
 import UIKit
 
 class AppColorDAO {

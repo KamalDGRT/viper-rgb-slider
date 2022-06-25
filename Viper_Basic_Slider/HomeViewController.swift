@@ -23,18 +23,16 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         loadCurrentColor()
     }
-
+    
     @IBAction func onRedValueChange(_ sender: UISlider) {
         print("Red value received: \(sender.value)")
         onColorValueChange()
-        
     }
     
     @IBAction func onGreenValueChange(_ sender: UISlider) {
         print("Green value received: \(sender.value)")
         onColorValueChange()
     }
-    
     
     @IBAction func onBlueValueChange(_ sender: UISlider) {
         print("Blue value received: \(sender.value)")
@@ -46,11 +44,11 @@ class HomeViewController: UIViewController {
 extension HomeViewController: HomeView {
     func loadCurrentColor(rgb: (CGFloat, CGFloat, CGFloat)) {
         lblRgbValue.text = "RGB (\(rgb.0), \(rgb.1), \(rgb.2))"
-
+        
         sliderRed.value = Float(rgb.0)
         sliderGreen.value = Float(rgb.1)
         sliderBlue.value = Float(rgb.2)
-
+        
         self.view.backgroundColor = UIColor(
             red: rgb.0/255,
             green: rgb.1/255,
@@ -62,8 +60,6 @@ extension HomeViewController: HomeView {
 
 
 extension HomeViewController: ColorValueDelegate {
-   
-    
     /*!
      * @discussion Track color value changes
      * @params Void
@@ -71,7 +67,7 @@ extension HomeViewController: ColorValueDelegate {
      */
     func onColorValueChange() {
         let step: Float = 1
-    
+        
         let red = CGFloat(round(sliderRed.value / step) * step)
         let green = CGFloat(round(sliderGreen.value / step) * step)
         let blue = CGFloat(round(sliderBlue.value / step) * step)
@@ -95,10 +91,8 @@ extension HomeViewController: ColorValueDelegate {
      */
     func saveCurrentColor(rgb: (CGFloat, CGFloat, CGFloat)) -> (Void) {
         print("Current colors are saved!")
-        
         presenter?.onColorValueChange(rgb: rgb)
     }
-    
     
     /*!
      * @discussionLoad current color, RGB values will be between 0-255

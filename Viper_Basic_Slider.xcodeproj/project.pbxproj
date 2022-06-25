@@ -16,6 +16,10 @@
 		D50DD1BC286336A6004B06A6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D50DD1BB286336A6004B06A6 /* .gitignore */; };
 		D5607ACE28671B3B000A444A /* HomeViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5607ACD28671B3B000A444A /* HomeViewBuilder.swift */; };
 		D5607AD028672458000A444A /* AppColorDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5607ACF28672458000A444A /* AppColorDAO.swift */; };
+		D5607AD228672F8B000A444A /* HomeViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5607AD128672F8B000A444A /* HomeViewInteractor.swift */; };
+		D5607AD428672F98000A444A /* HomeViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5607AD328672F98000A444A /* HomeViewPresenter.swift */; };
+		D5607AD628672FC7000A444A /* HomeViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5607AD528672FC7000A444A /* HomeViewRouter.swift */; };
+		D5607AD828672FD6000A444A /* HomeViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5607AD728672FD6000A444A /* HomeViewProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		D50DD1BB286336A6004B06A6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D5607ACD28671B3B000A444A /* HomeViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewBuilder.swift; sourceTree = "<group>"; };
 		D5607ACF28672458000A444A /* AppColorDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColorDAO.swift; sourceTree = "<group>"; };
+		D5607AD128672F8B000A444A /* HomeViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewInteractor.swift; sourceTree = "<group>"; };
+		D5607AD328672F98000A444A /* HomeViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewPresenter.swift; sourceTree = "<group>"; };
+		D5607AD528672FC7000A444A /* HomeViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRouter.swift; sourceTree = "<group>"; };
+		D5607AD728672FD6000A444A /* HomeViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +73,11 @@
 			children = (
 				D50DD1A728633677004B06A6 /* AppDelegate.swift */,
 				D50DD1A928633677004B06A6 /* SceneDelegate.swift */,
+				D5607AD728672FD6000A444A /* HomeViewProtocols.swift */,
 				D50DD1AB28633677004B06A6 /* HomeViewController.swift */,
+				D5607AD128672F8B000A444A /* HomeViewInteractor.swift */,
+				D5607AD328672F98000A444A /* HomeViewPresenter.swift */,
+				D5607AD528672FC7000A444A /* HomeViewRouter.swift */,
 				D5607ACD28671B3B000A444A /* HomeViewBuilder.swift */,
 				D5607ACF28672458000A444A /* AppColorDAO.swift */,
 				D50DD1AD28633677004B06A6 /* Main.storyboard */,
@@ -148,8 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5607AD228672F8B000A444A /* HomeViewInteractor.swift in Sources */,
+				D5607AD428672F98000A444A /* HomeViewPresenter.swift in Sources */,
 				D50DD1AC28633677004B06A6 /* HomeViewController.swift in Sources */,
+				D5607AD828672FD6000A444A /* HomeViewProtocols.swift in Sources */,
 				D50DD1A828633677004B06A6 /* AppDelegate.swift in Sources */,
+				D5607AD628672FC7000A444A /* HomeViewRouter.swift in Sources */,
 				D5607ACE28671B3B000A444A /* HomeViewBuilder.swift in Sources */,
 				D5607AD028672458000A444A /* AppColorDAO.swift in Sources */,
 				D50DD1AA28633677004B06A6 /* SceneDelegate.swift in Sources */,
