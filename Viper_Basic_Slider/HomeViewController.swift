@@ -42,6 +42,7 @@ class HomeViewController: UIViewController {
 }
 
 extension HomeViewController: HomeView {
+    
     func loadCurrentColor(rgb: (CGFloat, CGFloat, CGFloat)) {
         lblRgbValue.text = "RGB (\(rgb.0), \(rgb.1), \(rgb.2))"
         
@@ -60,10 +61,8 @@ extension HomeViewController: HomeView {
 
 
 extension HomeViewController: ColorValueDelegate {
-    /*!
-     * @discussion Track color value changes
-     * @params Void
-     * @return Void
+    /**
+     Track color value changes
      */
     func onColorValueChange() {
         let step: Float = 1
@@ -84,20 +83,22 @@ extension HomeViewController: ColorValueDelegate {
         saveCurrentColor(rgb: (red, green, blue))
     }
     
-    /*!
-     * @discussion RGB values to be saved. Values passed should be between 0 - 255
-     * @params rgb
-     * @return Void
+    /**
+     RGB values to be saved. Values passed should be between 0 - 255
+     
+     - Parameters:
+        - rgb of type (CGFloat, CGFfloat, CGFloat)
      */
     func saveCurrentColor(rgb: (CGFloat, CGFloat, CGFloat)) -> (Void) {
         print("Current colors are saved!")
         presenter?.onColorValueChange(rgb: rgb)
     }
     
-    /*!
-     * @discussionLoad current color, RGB values will be between 0-255
-     * @params Void
-     * @return (CGFloat, CGFloat, CGFloat)
+    /**
+     Load current color, RGB values will be between 0-255
+
+     - Returns:
+        (CGFloat, CGFloat, CGFloat)
      */
     func loadCurrentColor() -> () {
         print("View Controller is delegating loadCurrentColor to presenter")

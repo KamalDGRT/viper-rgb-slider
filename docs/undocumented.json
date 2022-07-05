@@ -114,37 +114,16 @@
     },
     {
       "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
-      "line": 45,
+      "line": 46,
       "symbol": "HomeViewController.loadCurrentColor(rgb:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
-      "line": 62,
+      "line": 63,
       "symbol": "HomeViewController",
       "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
-      "line": 68,
-      "symbol": "HomeViewController.onColorValueChange()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
-      "line": 92,
-      "symbol": "HomeViewController.saveCurrentColor(rgb:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
-      "line": 102,
-      "symbol": "HomeViewController.loadCurrentColor()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -163,44 +142,23 @@
     },
     {
       "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewPresenter.swift",
-      "line": 10,
-      "symbol": "HomeViewPresenter",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewPresenter.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "HomeViewPresenter.view",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewPresenter.swift",
-      "line": 13,
+      "line": 14,
       "symbol": "HomeViewPresenter.router",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewPresenter.swift",
-      "line": 14,
+      "line": 15,
       "symbol": "HomeViewPresenter.interactor",
       "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewPresenter.swift",
-      "line": 22,
-      "symbol": "HomeViewPresenter.onLoadCurrentColor()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewPresenter.swift",
-      "line": 52,
-      "symbol": "HomeViewPresenter.onColorValueChange(rgb:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -268,14 +226,7 @@
     },
     {
       "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewRouter.swift",
-      "line": 10,
-      "symbol": "HomeViewRouter",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewRouter.swift",
-      "line": 11,
+      "line": 12,
       "symbol": "HomeViewRouter.viewController",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"

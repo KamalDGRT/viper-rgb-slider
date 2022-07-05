@@ -7,18 +7,16 @@
 
 import UIKit
 
+/// Delegates tasks to view and interactor
 class HomeViewPresenter: HomeViewPresentation {
     
     weak var view: HomeView?
     var router: HomeViewWireframe?
     var interactor: HomeUseCase?
     
-    /*!
-     * @discussion Load current received from View Controller
-     * @params Void
-     * @return Void
-     */
-    
+    /**
+      Load current received from View Controller
+    */
     func onLoadCurrentColor() {
         
         //      Method 1
@@ -44,10 +42,8 @@ class HomeViewPresenter: HomeViewPresentation {
     }
     
     
-    /*!
-     * @discussion When color value changes in view controller, it delgates the save work to presenter
-     * @params Void
-     * @return Void
+    /**
+      When color value changes in view controller, it delgates the save work to presenter
      */
     func onColorValueChange(rgb: (CGFloat, CGFloat, CGFloat)) {
         

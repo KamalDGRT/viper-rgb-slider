@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Router thats supposed to take care of navigation when we have multiple screens
 class HomeViewRouter: HomeViewWireframe {
     var viewController: UIViewController?
 }

@@ -16,11 +16,10 @@ class HomeInteractor: HomeUseCase {
     }
  
     /**
-     * @discussion Load current color use case handled here
-     * @params Void
-     * @return (CGFloat, CGFloat, CGFloat)
-     */
-    
+     Load current color use case handled here
+     - Returns: 
+        - (CGFloat, CGFloat, CGFloat)
+    */
     func loadCurrentColor() -> (CGFloat, CGFloat, CGFloat) {
         let currentRgb = appColorDao?.fetch()
         return currentRgb!
@@ -28,9 +27,11 @@ class HomeInteractor: HomeUseCase {
     
     
     /**
-     * @discussion Save current color use case handled here
-     * @params (CGFloat, CGFloat, CGFloat) between 0-255
-     * @return Void
+     Save current color use case handled here
+     - Parameters:
+        - Red `CGFloat`
+        - Green `CGFloat`
+        - Blue `CGFloat`
      */
     func saveCurrentColor(rgb: (CGFloat, CGFloat, CGFloat)) -> (Void) {
         appColorDao?.save(rgb: rgb)
