@@ -1,0 +1,418 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/AppColorDAO.swift",
+      "line": 13,
+      "symbol": "AppColorDAO",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/AppColorDAO.swift",
+      "line": 14,
+      "symbol": "AppColorDAO.save(rgb:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/AppColorDAO.swift",
+      "line": 20,
+      "symbol": "AppColorDAO.fetch()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/AppDelegate.swift",
+      "line": 11,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/AppDelegate.swift",
+      "line": 15,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/AppDelegate.swift",
+      "line": 22,
+      "symbol": "AppDelegate.application(_:configurationForConnecting:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/AppDelegate.swift",
+      "line": 28,
+      "symbol": "AppDelegate.application(_:didDiscardSceneSessions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 10,
+      "symbol": "ColorValueDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 11,
+      "symbol": "ColorValueDelegate.onColorValueChange()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 14,
+      "symbol": "HomeViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 15,
+      "symbol": "HomeViewController.sliderRed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 16,
+      "symbol": "HomeViewController.sliderGreen",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 17,
+      "symbol": "HomeViewController.sliderBlue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 18,
+      "symbol": "HomeViewController.lblRgbValue",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 20,
+      "symbol": "HomeViewController.presenter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 22,
+      "symbol": "HomeViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 27,
+      "symbol": "HomeViewController.onRedValueChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 32,
+      "symbol": "HomeViewController.onGreenValueChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 37,
+      "symbol": "HomeViewController.onBlueValueChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 44,
+      "symbol": "HomeViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 45,
+      "symbol": "HomeViewController.loadCurrentColor(rgb:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 62,
+      "symbol": "HomeViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 68,
+      "symbol": "HomeViewController.onColorValueChange()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 92,
+      "symbol": "HomeViewController.saveCurrentColor(rgb:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
+      "line": 102,
+      "symbol": "HomeViewController.loadCurrentColor()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewInteractor.swift",
+      "line": 13,
+      "symbol": "HomeInteractor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewInteractor.swift",
+      "line": 14,
+      "symbol": "HomeInteractor.appColorDao",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewInteractor.swift",
+      "line": 15,
+      "symbol": "HomeInteractor.init(dao:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewInteractor.swift",
+      "line": 25,
+      "symbol": "HomeInteractor.loadCurrentColor()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewInteractor.swift",
+      "line": 36,
+      "symbol": "HomeInteractor.saveCurrentColor(rgb:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewPresenter.swift",
+      "line": 10,
+      "symbol": "HomeViewPresenter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewPresenter.swift",
+      "line": 12,
+      "symbol": "HomeViewPresenter.view",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewPresenter.swift",
+      "line": 13,
+      "symbol": "HomeViewPresenter.router",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewPresenter.swift",
+      "line": 14,
+      "symbol": "HomeViewPresenter.interactor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewPresenter.swift",
+      "line": 22,
+      "symbol": "HomeViewPresenter.onLoadCurrentColor()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewPresenter.swift",
+      "line": 52,
+      "symbol": "HomeViewPresenter.onColorValueChange(rgb:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewProtocols.swift",
+      "line": 11,
+      "symbol": "HomeView",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewProtocols.swift",
+      "line": 12,
+      "symbol": "HomeView.loadCurrentColor(rgb:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewProtocols.swift",
+      "line": 16,
+      "symbol": "HomeUseCase",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewProtocols.swift",
+      "line": 17,
+      "symbol": "HomeUseCase.loadCurrentColor()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewProtocols.swift",
+      "line": 18,
+      "symbol": "HomeUseCase.saveCurrentColor(rgb:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewProtocols.swift",
+      "line": 22,
+      "symbol": "HomeViewWireframe",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewProtocols.swift",
+      "line": 23,
+      "symbol": "HomeViewWireframe.viewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewProtocols.swift",
+      "line": 29,
+      "symbol": "HomeViewPresentation",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewProtocols.swift",
+      "line": 30,
+      "symbol": "HomeViewPresentation.view",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewProtocols.swift",
+      "line": 31,
+      "symbol": "HomeViewPresentation.router",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewProtocols.swift",
+      "line": 32,
+      "symbol": "HomeViewPresentation.interactor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewProtocols.swift",
+      "line": 34,
+      "symbol": "HomeViewPresentation.onLoadCurrentColor()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewProtocols.swift",
+      "line": 35,
+      "symbol": "HomeViewPresentation.onColorValueChange(rgb:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewRouter.swift",
+      "line": 10,
+      "symbol": "HomeViewRouter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewRouter.swift",
+      "line": 11,
+      "symbol": "HomeViewRouter.viewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/SceneDelegate.swift",
+      "line": 10,
+      "symbol": "SceneDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/SceneDelegate.swift",
+      "line": 12,
+      "symbol": "SceneDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/SceneDelegate.swift",
+      "line": 15,
+      "symbol": "SceneDelegate.scene(_:willConnectTo:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/SceneDelegate.swift",
+      "line": 28,
+      "symbol": "SceneDelegate.sceneDidDisconnect(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/SceneDelegate.swift",
+      "line": 35,
+      "symbol": "SceneDelegate.sceneDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/SceneDelegate.swift",
+      "line": 40,
+      "symbol": "SceneDelegate.sceneWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/SceneDelegate.swift",
+      "line": 45,
+      "symbol": "SceneDelegate.sceneWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/SceneDelegate.swift",
+      "line": 50,
+      "symbol": "SceneDelegate.sceneDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider"
+}

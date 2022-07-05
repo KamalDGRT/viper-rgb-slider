@@ -7,7 +7,18 @@
 
 import UIKit
 
+/// This is the class responsible for creating the initial view controller.
 class HomeViewBuilder {
+    
+    /**
+         This static function will create a view controller using the `Main` storyboard.
+        
+         ### Usage Example:
+         ```
+         let initialVC = HomeViewBuilder.assembleModule()
+         ```
+    */
+    
     static func assembleModule() -> UIViewController {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
