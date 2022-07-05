@@ -7,25 +7,28 @@
 
 import UIKit
 
-// View Controller protocol
+/// View Controller protocol
 protocol HomeView: AnyObject {
     func loadCurrentColor(rgb: (CGFloat, CGFloat, CGFloat)) -> (Void)
 }
 
-// Interactor Protocol
+/// Interactor Protocol
 protocol HomeUseCase: AnyObject {
     func loadCurrentColor() -> (CGFloat, CGFloat, CGFloat)
     func saveCurrentColor(rgb: (CGFloat, CGFloat, CGFloat)) -> ()
 }
 
-// router protocol
+/// router protocol
 protocol HomeViewWireframe: AnyObject {
     var viewController: UIViewController? { get }
 }
 
-// presenter protocol
-// presenter should have a strong reference to router
-// it should not be the other way
+/**
+ Presenter protocol
+ 
+* presenter should have a strong reference to router
+* It should not be the other way
+*/
 protocol HomeViewPresentation: AnyObject {
     var view: HomeView? {get}
     var router: HomeViewWireframe? {get}

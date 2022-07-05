@@ -22,34 +22,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/AppDelegate.swift",
-      "line": 11,
-      "symbol": "AppDelegate",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/AppDelegate.swift",
-      "line": 15,
-      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/AppDelegate.swift",
-      "line": 22,
-      "symbol": "AppDelegate.application(_:configurationForConnecting:options:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/AppDelegate.swift",
-      "line": 28,
-      "symbol": "AppDelegate.application(_:didDiscardSceneSessions:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewController.swift",
       "line": 10,
       "symbol": "ColorValueDelegate",
@@ -193,20 +165,6 @@
       "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewInteractor.swift",
       "line": 15,
       "symbol": "HomeInteractor.init(dao:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewInteractor.swift",
-      "line": 25,
-      "symbol": "HomeInteractor.loadCurrentColor()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/ksharmar/Desktop/Git_Repos/viper/Viper_Basic_Slider/Viper_Basic_Slider/HomeViewInteractor.swift",
-      "line": 36,
-      "symbol": "HomeInteractor.saveCurrentColor(rgb:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },

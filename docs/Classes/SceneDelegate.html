@@ -17,7 +17,7 @@
     <a title="SceneDelegate Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (3% documented)</p>
+        <p><a href="../index.html"> Docs</a> (32% documented)</p>
         <div class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -97,7 +97,8 @@
 
                 </div>
               </div>
-            <p>Undocumented</p>
+            <p>SceneDelegate is responsible for scene lifecycle events like
+scene creation, destruction and state restoration of a UISceneSession.</p>
 
           </section>
           <section class="section task-group-section">
@@ -143,7 +144,12 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        
+<ul>
+<li>Use this method to optionally configure and attach the UIWindow <code><a href="../Classes/SceneDelegate.html#/c:@M@Viper_Basic_Slider@objc(cs)SceneDelegate(py)window">window</a></code> to the provided UIWindowScene <code>scene</code>.</li>
+<li>If using a storyboard, the <code><a href="../Classes/SceneDelegate.html#/c:@M@Viper_Basic_Slider@objc(cs)SceneDelegate(py)window">window</a></code> property will automatically be initialized and attached to the scene.</li>
+<li>This delegate does not imply the connecting scene or session are new (see <code>application:configurationForConnectingSceneSession</code> instead).</li>
+</ul>
 
                       </div>
                       <div class="declaration">
@@ -170,7 +176,13 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        
+<ul>
+<li>Called as the scene is being released by the system.</li>
+<li>This occurs shortly after the scene enters the background, or when its session is discarded.</li>
+<li>Release any resources associated with this scene that can be re-created the next time the scene connects.</li>
+<li>The scene may re-connect later, as its session was not necessarily discarded (see <code>application:didDiscardSceneSessions</code> instead).</li>
+</ul>
 
                       </div>
                       <div class="declaration">
@@ -197,7 +209,11 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        
+<ul>
+<li>Called when the scene has moved from an inactive state to an active state.</li>
+<li>Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.</li>
+</ul>
 
                       </div>
                       <div class="declaration">
@@ -224,7 +240,11 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        
+<ul>
+<li>Called when the scene will move from an active state to an inactive state.</li>
+<li>This may occur due to temporary interruptions (ex. an incoming phone call).</li>
+</ul>
 
                       </div>
                       <div class="declaration">
@@ -251,7 +271,11 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        
+<ul>
+<li>Called as the scene transitions from the background to the foreground.</li>
+<li>Use this method to undo the changes made on entering the background.</li>
+</ul>
 
                       </div>
                       <div class="declaration">
@@ -278,7 +302,13 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        
+<ul>
+<li>Called as the scene transitions from the foreground to the background.</li>
+<li>Use this method to save data, release shared resources, and store
+enough scene-specific state information to restore the scene back
+to its current state.</li>
+</ul>
 
                       </div>
                       <div class="declaration">
