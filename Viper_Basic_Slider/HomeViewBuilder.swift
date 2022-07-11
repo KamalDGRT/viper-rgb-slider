@@ -17,8 +17,10 @@ class HomeViewBuilder {
          ```
          let initialVC = HomeViewBuilder.assembleModule()
          ```
+     
+         - Returns:
+            - UIViewController
     */
-    
     static func assembleModule() -> UIViewController {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)

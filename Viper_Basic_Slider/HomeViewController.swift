@@ -11,7 +11,11 @@ protocol ColorValueDelegate {
     func onColorValueChange() -> ()
 }
 
+///
 class HomeViewController: UIViewController {
+    ///
+    /// `sliderRed` - takes in value from 0-255
+    ///
     @IBOutlet weak var sliderRed: UISlider!
     @IBOutlet weak var sliderGreen: UISlider!
     @IBOutlet weak var sliderBlue: UISlider!
